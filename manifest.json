@@ -1,0 +1,22 @@
+{
+    "name": "Goggles",
+    "description": "Goggles Chrome Extension",
+    "version": "1.0",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": [
+        
+    ],
+    "action": {
+      "default_title": "My Bookmarks",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    }
+}
